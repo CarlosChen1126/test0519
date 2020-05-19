@@ -58,7 +58,7 @@ app.get('/send',(req,res) =>{
         type: 'text',
         text: 'Hello World!'
       };
-    client.pushMessage("Ue521265b814673aaf5f56d1216979d54",message)
+    client.pushMessage("U0be37ed03c813f0f06f51de01fc7cdf4",message)
     .then(() => {
         console.log("Message pushed")
         res.send("message sent")
